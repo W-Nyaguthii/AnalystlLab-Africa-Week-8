@@ -1,18 +1,3 @@
-"""
-filter_wdi_education.py
-Run this on YOUR computer (not upload the 70MB file) to shrink the World
-Bank WDI bulk CSV down to just the Education & Literacy indicators and a
-focused set of countries. The output file will be a few hundred KB and
-safe to upload to Claude.
-
-USAGE (Windows, since you use `py`):
-    1. Put this script in the SAME folder as WDICSV.csv (the file you get
-       after extracting WDI_CSV.zip).
-    2. Open a terminal in that folder.
-    3. Run:  py filter_wdi_education.py
-    4. It creates: wdi_education_filtered.csv
-    5. Upload wdi_education_filtered.csv back to Claude.
-"""
 
 import pandas as pd
 
